@@ -1,0 +1,92 @@
+html,
+body {
+    font-size: 16px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+    scroll-behavior: smooth;
+    .display-1 {
+        font-size: 6rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.typewriter {
+    font-size: 1.2rem;
+}
+
+.skillsicons {
+    font-size: 3rem;
+}
+
+.socialicons {
+    font-size: 3rem;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 4px;
+    &:hover {
+        color: black;
+        transition: color 1.5s;
+    }
+}
+
+$bg-anm-time: 50s;
+.main-bg {
+    background-size: 1200% 1200%;
+    -webkit-animation: bg-animation $bg-anm-time ease infinite;
+    -moz-animation: bg-animation $bg-anm-time ease infinite;
+    -o-animation: bg-animation $bg-anm-time ease infinite;
+    animation: bg-animation $bg-anm-time ease infinite;
+}
+
+@-webkit-keyframes bg-animation {
+    0% {
+        background-position: 0% 7%;
+    }
+    50% {
+        background-position: 100% 94%;
+    }
+    100% {
+        background-position: 0% 7%;
+    }
+}
+
+@-moz-keyframes bg-animation {
+    0% {
+        background-position: 0% 7%;
+    }
+    50% {
+        background-position: 100% 94%;
+    }
+    100% {
+        background-position: 0% 7%;
+    }
+}
+
+@-o-keyframes bg-animation {
+    0% {
+        background-position: 0% 7%;
+    }
+    50% {
+        background-position: 100% 94%;
+    }
+    100% {
+        background-position: 0% 7%;
+    }
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: 0% 7%;
+    }
+    50% {
+        background-position: 100% 94%;
+    }
+    100% {
+        background-position: 0% 7%;
+    }
+}
