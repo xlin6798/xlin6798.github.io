@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 
 function Contacts() {
+    const email = "xlin6798@gmail.com";
     return (
         <div id="Contacts" className="bg-white">
             <Container className="p-5">
@@ -10,7 +11,7 @@ function Contacts() {
                 <p className="lead text-center">
                     I'm looking for internship opportunties as a Software Engineer.
                     <br />
-                    If you know of any avaiable opportunities,
+                    If you know of any available opportunities,
                     <br />
                     or if you have any questions, comments,
                     corcerns 
@@ -18,7 +19,7 @@ function Contacts() {
                     or if you just want to say hi,
                     <br />
                     please feel free to reach me @
-                    <a href="mailto:xlin6798@gmail.com">xlin6798@gmail.com</a>
+                    <a href={`mailto:${email}`} target="_blank" rel="noreferrer">{email} </a>
                 </p>
             </Container>
         </div>

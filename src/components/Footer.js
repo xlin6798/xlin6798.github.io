@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 
 function Footer() {
@@ -26,14 +26,6 @@ function Footer() {
                         aria-label="My linkedin"
                     >
                         <FaLinkedin />
-                    </a>
-                    {" "}
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="My email"
-                    >
-                        <FaMailBulk />
                     </a>
                 </p>
             </Container>

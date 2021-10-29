@@ -10,6 +10,13 @@ body {
     }
 }
 
+.display-1 {
+    font-size: 5rem !important;
+    @media (min-width: 768px) {
+        font-size: 6rem !important;
+    }
+}
+
 a {
     text-decoration: none;
 }
